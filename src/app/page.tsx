@@ -1,7 +1,21 @@
+import Chef from "@/components/chef/chef";
+import Footer from "@/components/footer/Footer";
+import Hero from "@/components/hero";
+import Menu from "@/components/menu/menu";
+import NavBar from "@/components/navbar";
+import Newsletter from "@/components/newsletter/Newsletter";
+import Reviews from "@/components/reviews/reviews";
+
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>
+      <NavBar/>
+      <Hero/>
+      <Menu/>
+      <Chef/>
+      <Reviews/>
+      <Newsletter/>
+      <Footer/>
+    </>
   )
 }
